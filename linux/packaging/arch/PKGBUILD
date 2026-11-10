@@ -1,0 +1,18 @@
+# Maintainer: G-Helper Linux Port
+pkgname=ghelper
+pkgver=0.292.0
+pkgrel=3
+pkgdesc="Wayland-first ASUS laptop control (G-Helper Linux port)"
+arch=('any')
+url="https://github.com/seerge/g-helper"
+license=('GPL-3.0-only')
+depends=('python' 'gtk4' 'libadwaita' 'python-gobject' 'python-dbus' 'polkit')
+optdepends=(
+  'gtk4-layer-shell: Wayland metrics overlay'
+  'power-profiles-daemon: optional profile integration'
+)
+options=('!strip')
+
+package() {
+  make -C "${startdir}/../.." install DESTDIR="${pkgdir}" PREFIX=/usr
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=G-Helper
+GenericName=ASUS laptop control
+Comment=Wayland-first G-Helper for Linux
+Comment[zh_CN]=华硕笔记本控制工具，Wayland 优先，X11 回退
+Exec=ghelper
+Icon=ghelper
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true
+Keywords=ASUS;ROG;TUF;fan;battery;wayland;

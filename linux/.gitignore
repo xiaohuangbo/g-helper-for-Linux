@@ -1,0 +1,13 @@
+# Keep Linux entry points despite the upstream Visual Studio [Bb]in/ rule.
+!/bin/
+!/bin/ghelper
+!/bin/ghelper-priv
+
+__pycache__/
+*.pyc
+dist/
+pkg/
+src/
+*.deb
+*.rpm
+*.pkg.tar.zst
