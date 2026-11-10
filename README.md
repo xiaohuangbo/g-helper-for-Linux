@@ -258,6 +258,8 @@ For bug reports, include distribution/kernel versions, desktop/backend, laptop m
 
 ## Contributing / 参与贡献
 
+**感谢Grok4.7/ChatGPT6.1 sol/deepseek-Flash-1017 对本项目的贡献，没有这些大模型，本项目可能根本不存在**
+
 Issues and pull requests are welcome: hardware compatibility reports, protocol validation, desktop integration, packaging fixes, translations and security hardening. Keep hardware protocols separate from the UI and add tests for protocol parsing where possible.
 
 欢迎提交 Issue 和 PR：机型兼容报告、协议验证、桌面集成、打包修复、翻译和权限加固。请保持硬件协议与界面分离，并尽量为协议解析补充测试。
